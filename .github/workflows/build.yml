@@ -56,6 +56,10 @@ jobs:
         aws s3 cp cmd/mga/mgaoffline.md5 s3://$aws_s3_bucket/mgaoffline.md5
         aws s3 cp cmd/mga/mgaoffine.ubx s3://$aws_s3_bucket/mgaoffine.ubx
         aws s3 cp cmd/mga/mgaoffine.md5 s3://$aws_s3_bucket/mgaoffine.md5
+        aws s3 presign s3://$aws_s3_bucket/mgaoffline.ubx --expires-in 604800
+        aws s3 presign s3://$aws_s3_bucket/mgaoffline.md5 --expires-in 604800
+        aws s3 presign s3://$aws_s3_bucket/mgaoffine.ubx --expires-in 604800
+        aws s3 presign s3://$aws_s3_bucket/mgaoffine.md5 --expires-in 604800
 
         
       
