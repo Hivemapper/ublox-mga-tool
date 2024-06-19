@@ -12,7 +12,7 @@ Download the latest version of the tool from the [releases page](https://github.
 
 ## Warning
 
-Be careful! Once repo is not touched for 2 months+,
+Be careful! Once repo is not touched for 1 months+,
 github stops executing the scheduled Actions in it, that can prevent us from updating the MGA file for production.
-TBD
+
 
