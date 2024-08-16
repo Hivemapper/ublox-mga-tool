@@ -5,8 +5,8 @@ name: Go
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '0 20 * * 1'
+  # schedule:
+  #   - cron:  '0 20 * * 1'
 
   # push:
   #   branches: [ "main" ]
